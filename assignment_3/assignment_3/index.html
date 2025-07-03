@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <input type="text" id="loginUser" placeholder="Username" required />
+    <input type="password" id="loginPass" placeholder="Password" required />
+    <button onclick="login()">Login</button>
+
+    <h2 style="margin-top: 20px;">Signup</h2>
+    <input type="text" id="signupUser" placeholder="New Username" required />
+    <input type="password" id="signupPass" placeholder="New Password" required />
+    <button onclick="signup()">Signup</button>
+
+    <div class="message" id="msg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
